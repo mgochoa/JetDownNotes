@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "925663540481",
+    "firebase_url": "https://jetdown-769d4.firebaseio.com",
+    "project_id": "jetdown-769d4",
+    "storage_bucket": "jetdown-769d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925663540481:android:efad61ad4b940f66",
+        "android_client_info": {
+          "package_name": "co.edu.udea.jetdown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925663540481-nhicn966sd15dfsk5ehg8i1utu8icii8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnaB5KMnhVu42qr_k0Acg4VUN8ssgEVLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
