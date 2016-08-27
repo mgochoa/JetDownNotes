@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:id="@+id/logIn"
-    tools:context="co.edu.udea.jetdown.LogInActivity">
+    tools:context="co.edu.udea.jetdown.LogInActivity"
+    android:background="@drawable/jet">
 
     <Button
         android:id="@+id/button"
@@ -17,5 +18,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:onClick="signIn"
-        android:text="Google Log In" />
+        android:text="Google Log In"
+        android:theme="@style/MyButton"/>
 </RelativeLayout>
