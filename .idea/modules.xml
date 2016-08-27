@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jetdown.iml" filepath="$PROJECT_DIR$/jetdown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetdownnotes.iml" filepath="$PROJECT_DIR$/jetdownnotes.iml" />
     </modules>
   </component>
 </project>
