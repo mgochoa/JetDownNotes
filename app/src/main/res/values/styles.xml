@@ -27,9 +27,9 @@
     </style>
 
 
-    <style name="MyButton" parent="Theme.AppCompat.Light">
+    <!--style name="MyButton" parent="Theme.AppCompat.Light">
     <item name="colorControlHighlight">@color/colorPrimary</item>
-    <item name="colorButtonNormal">@color/colorAccent</item>
-</style>
+    <item name="colorButtonNormal">#00796B</item>
+</style-->
 
 </resources>

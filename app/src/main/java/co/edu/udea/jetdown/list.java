@@ -50,8 +50,8 @@ public class list extends android.support.v4.app.ListFragment implements Adapter
         String planetName = rootDirectory[position];
 
         //Show message in toast
-        Toast.makeText(getActivity(), "This planet is: " + planetName, Toast.LENGTH_SHORT).show();
-        Log.d("Hi","This planet is: " + planetName );
+        Toast.makeText(getActivity(), "This folder is: " + planetName, Toast.LENGTH_SHORT).show();
+        Log.d("Hi","This folder is: " + planetName );
 
     }
 }

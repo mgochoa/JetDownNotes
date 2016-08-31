@@ -131,8 +131,8 @@ public class MainActivity extends AppCompatActivity
     //Tabs
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new list(),"ONE");
-        adapter.addFragment(new feedFragment(),"TWO");
+        adapter.addFragment(new list(),"Folders");
+        adapter.addFragment(new feedFragment(),"News");
 
         viewPager.setAdapter(adapter);
     }

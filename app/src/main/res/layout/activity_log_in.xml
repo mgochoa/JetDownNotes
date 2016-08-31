@@ -9,15 +9,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:id="@+id/logIn"
     tools:context="co.edu.udea.jetdown.LogInActivity"
-    android:background="@drawable/jet">
+    android:background="@color/colorPrimary">
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:onClick="signIn"
-        android:text="Google Log In"
-        android:theme="@style/MyButton"/>
+        android:text="Entrar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jet Down"
+        android:textColor="@android:color/white"
+        android:textSize="70sp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
+
 </RelativeLayout>
