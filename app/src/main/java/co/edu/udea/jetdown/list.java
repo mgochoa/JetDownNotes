@@ -2,6 +2,7 @@ package co.edu.udea.jetdown;
 
 
 import android.app.ListFragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.Fragment;
@@ -47,11 +48,14 @@ public class list extends android.support.v4.app.ListFragment implements Adapter
     }
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        String planetName = rootDirectory[position];
+
+
+
+       /* String planetName = rootDirectory[position];
 
         //Show message in toast
         Toast.makeText(getActivity(), "This folder is: " + planetName, Toast.LENGTH_SHORT).show();
-        Log.d("Hi","This folder is: " + planetName );
+        Log.d("Hi","This folder is: " + planetName );*/
 
     }
 }

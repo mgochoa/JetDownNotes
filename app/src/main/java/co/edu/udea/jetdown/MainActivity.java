@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Open camera and take picture", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -165,6 +165,7 @@ public class MainActivity extends AppCompatActivity
             return mFragmentTitleList.get(position);
         }
     }
+
 
 //EndTabs
 
