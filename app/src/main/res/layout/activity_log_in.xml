@@ -33,4 +33,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="51dp" />
 
+    <ImageView
+        android:adjustViewBounds="true"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:src="@drawable/cargo_ship"
+        android:layout_centerInParent="true"
+        />
+
 </RelativeLayout>

@@ -50,6 +50,8 @@ public class list extends android.support.v4.app.ListFragment implements Adapter
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
+        Intent intent=new Intent(getContext(),folder.class);
+        startActivity(intent);
 
        /* String planetName = rootDirectory[position];
 
